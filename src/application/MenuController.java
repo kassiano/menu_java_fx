@@ -24,6 +24,7 @@ public class MenuController {
 
 		primaryStage.setScene(new Scene(p));
 		primaryStage.show();
+		//alteração
 
 	}
 
