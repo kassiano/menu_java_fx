@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="110.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+fx:controller="application.MenuController"
+>
+   <children>
+      <Hyperlink fx:id="link_relat" layoutX="21.0" layoutY="41.0" text="Relatorios" onAction="#relatorio" />
+      <Hyperlink fx:id="link_grafico" layoutX="21.0" layoutY="78.0" text="Graficos" onAction="#grafico" />
+      <Hyperlink fx:id="link_func" layoutX="21.0" layoutY="115.0" text="Funcionarios" onAction="#funcionario" />
+   </children>
+</AnchorPane>
